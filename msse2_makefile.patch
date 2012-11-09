@@ -1,0 +1,10 @@
+--- Makefile.orig	2011-11-30 19:03:55.000000000 +0400
++++ Makefile	2011-11-30 19:04:06.000000000 +0400
+@@ -1,6 +1,6 @@
+ CC=			gcc
+ CXX=		g++
+-CFLAGS=		-g -Wall -O2
++CFLAGS=		-g -Wall -O2 -msse2
+ CXXFLAGS=	$(CFLAGS)
+ DFLAGS=		-DHAVE_PTHREAD #-D_NO_SSE2 #-D_FILE_OFFSET_BITS=64
+ OBJS=		QSufSort.o bwt_gen.o utils.o bwt.o bwtio.o bwtaln.o bwtgap.o \
