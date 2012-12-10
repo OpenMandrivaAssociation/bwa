@@ -41,3 +41,10 @@ install -m 0644 bwa.1 %{buildroot}/%{_mandir}/man1/bwa.1
 %{_bindir}/bwa
 %{_bindir}/qualfa2fq.pl
 %{_bindir}/solid2fastq.pl
+
+
+%changelog
+* Wed Nov 30 2011 Alexander Khrukin <akhrukin@mandriva.org> 0.6.1-1
++ Revision: 735717
+- imported package bwa
+
