@@ -1,15 +1,12 @@
 Name:		bwa
-Version:	0.6.1
+Version:	0.6.2
 Release:	1
 Summary:	Burrows-Wheeler Alignment tool
-
 Group:		Sciences/Biology
 License:	GPLv3
 URL:		http://bio-bwa.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/bio-%{name}/%{name}-%{version}.tar.bz2
-
 BuildRequires:	zlib-devel
-Patch0:		msse2_makefile.patch
 
 %description
 
@@ -19,8 +16,7 @@ for read shorter than 150bp and the other for longer reads.
 
 %prep
 %setup -q
-%patch0 -p0
-
+#% patch0 -p0
 
 %build
 

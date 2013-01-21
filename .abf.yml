@@ -1,2 +1,4 @@
+removed_sources:
+  bwa-0.6.1.tar.bz2: 89b0bebb5d8b1839bb2b146e9bdd520733a98d38
 sources:
-  "bwa-0.6.1.tar.bz2": 89b0bebb5d8b1839bb2b146e9bdd520733a98d38
+  bwa-0.6.2.tar.bz2: fd3d0666a89d189b642d6f1c4cfa9c29123c12bc
