@@ -1,11 +1,11 @@
 Name:		bwa
-Version:	0.6.2
+Version:	0.7.4
 Release:	1
 Summary:	Burrows-Wheeler Alignment tool
 Group:		Sciences/Biology
 License:	GPLv3
 URL:		http://bio-bwa.sourceforge.net/
-Source0:	http://downloads.sourceforge.net/bio-%{name}/%{name}-%{version}.tar.bz2
+Source0:	http://sourceforge.net/projects/bio-bwa/files/%{name}-%{version}.tar.bz2
 BuildRequires:	zlib-devel
 
 %description
@@ -43,4 +43,5 @@ install -m 0644 bwa.1 %{buildroot}/%{_mandir}/man1/bwa.1
 * Wed Nov 30 2011 Alexander Khrukin <akhrukin@mandriva.org> 0.6.1-1
 + Revision: 735717
 - imported package bwa
+
 
