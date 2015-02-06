@@ -1,6 +1,6 @@
 Name:		bwa
 Version:	0.6.2
-Release:	1
+Release:	2
 Summary:	Burrows-Wheeler Alignment tool
 Group:		Sciences/Biology
 License:	GPLv3
