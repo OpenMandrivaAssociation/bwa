@@ -4,7 +4,7 @@ Release:	2
 Summary:	Burrows-Wheeler Alignment tool
 Group:		Sciences/Biology
 License:	GPLv3
-URL:		http://bio-bwa.sourceforge.net/
+URL:		https://bio-bwa.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/bio-%{name}/%{name}-%{version}.tar.bz2
 BuildRequires:	zlib-devel
 
