@@ -6,6 +6,7 @@ Group:		Sciences/Biology
 License:	GPLv3
 URL:		https://bio-bwa.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/bio-%{name}/%{name}-%{version}.tar.bz2
+BuildRequires:	make
 BuildRequires:	zlib-devel
 
 %description
